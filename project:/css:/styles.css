@@ -1,0 +1,116 @@
+/* Basic Styles */
+body {
+    /* Set the background color */
+    background-color: #ecf0f1;
+    font-family: 'Arial', sans-serif;
+    color: #2c3e50;
+    padding: 10px;
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #3498db;
+}
+
+h2 {
+    font-family: 'Georgia', serif;
+    text-align: center;
+    color: #3498db;
+}
+
+p {
+    margin: 20px 0;
+}
+
+/* Highlight Class */
+.highlight {
+    background-color: #2ecc71;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Flexbox */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item {
+    flex: 1;
+    margin: 10px;
+}
+
+/* Image Responsiveness */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Margins */
+.content {
+    margin: 20px;
+}
+
+/* Padding */
+.box {
+    padding: 15px;
+}
+
+/* Float, Clear, Overflow, Display */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Typography */
+h2 {
+    font-family: 'Georgia', serif;
+    text-align: center;
+}
+
+/* Colors */
+.accent {
+    color: #e74c3c;
+}
+
+/* Border */
+.bordered {
+    border: 2px solid #3498db;
+    border-radius: 5px;
+}
+
+/* Position */
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #3498db;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #2980b9;
+}
